@@ -1,0 +1,15 @@
+{
+    "name": "ilp/student-profile",
+    "description": "Student profile management system for ILP.",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^4.0",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ILP\\": "src/"
+        }
+    }
+}
